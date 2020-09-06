@@ -1,12 +1,14 @@
 body {
   display: flex;
   justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
 }
 
 #background {
   width: 1200px;
   height: 800px;
-  background-image: url("assets/background.png");
+  background-image: url("assets/background2.png");
   position: absolute;
 
   overflow: hidden;
@@ -56,15 +58,23 @@ body {
   color: yellow;
 }
 
-#gameOver {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+#gameOver,
+#newGame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
-    font-size: 70px;
-    color: yellow;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+
+  font-size: 55px;
+  color: yellow;
+}
+
+#newGame {
+  display: flex;
+  justify-content: center;
 }
