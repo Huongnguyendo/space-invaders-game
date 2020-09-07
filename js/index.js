@@ -177,7 +177,7 @@ function heroCollisionDetection() {
       console.log("Game over!");
       document.getElementById("gameSound").pause();
       document.getElementById("gameOverSound").play();
-      document.getElementById("hero").style.transform = "rotate(90deg)";
+      // document.getElementById("hero").style.transform = "rotate(90deg)";
       gameOver();
     }
   }
@@ -189,7 +189,7 @@ function enemyCatchup() {
       console.log("Game over!");
       document.getElementById("gameSound").pause();
       document.getElementById("gameOverSound").play();
-      document.getElementById("hero").style.transform = "rotate(90deg)";
+      // document.getElementById("hero").style.transform = "rotate(90deg)";
       gameOver();
     }
   }
