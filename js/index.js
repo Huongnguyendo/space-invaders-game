@@ -126,7 +126,7 @@ function drawMissiles() {
 
 function moveMissiles() {
   for (let i = 0; i < missiles.length; i++) {
-    missiles[i].top = missiles[i].top - 50;
+    missiles[i].top = missiles[i].top - 40;
   }
 }
 
